@@ -10,7 +10,6 @@
 
 -   typescript
 -   next.js v13
--   react.js
 -   tailwindcss
 -   shadcn/ui
 -   prisma

@@ -11,7 +11,6 @@
 ## Technologies Used:
 
 -   next.js v14
--   react.js
 -   tailwindcss
 -   shadcn/ui
 -   lucide-react
