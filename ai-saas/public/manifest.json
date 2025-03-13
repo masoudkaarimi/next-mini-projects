@@ -1,0 +1,146 @@
+{
+    "name": "Genius - SaaS AI Platform",
+    "short_name": "Genius",
+    "description": "SaaS AI Platform",
+    "orientation": "portrait-primary",
+    "theme_color": "#6f5af6",
+    "background_color": "#fdfdfd",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "scope": "/",
+    "dir": "ltr",
+    "lang": "en",
+    "display_override": ["window-controls-overlay", "fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "features": ["Chatbot.", "Image Generation.", "Video Generation.", "music Generation.", "Code Generation."],
+    "launch_handler": {
+        "client_mode": "navigate-existing"
+    },
+    "categories": ["ai", "saas"],
+    "shortcuts": [
+        {
+            "name": "Conversation",
+            "short_name": "Conversation",
+            "description": "Our most advanced conversation model.",
+            "url": "/conversation?source=pwa",
+            "icons": [
+                {
+                    "src": "/icons/shortcuts/conversation-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Image Generation",
+            "short_name": "Image Generation",
+            "description": "Turn your prompt into an image.",
+            "url": "/image?source=pwa",
+            "icons": [
+                {
+                    "src": "/icons/shortcuts/image-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Video Generation",
+            "short_name": "Video Generation",
+            "description": "Turn your prompt into video.",
+            "url": "/video?source=pwa",
+            "icons": [
+                {
+                    "src": "/icons/shortcuts/video-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Music Generation",
+            "short_name": "Music Generation",
+            "description": "Turn your prompt into music.",
+            "url": "/music?source=pwa",
+            "icons": [
+                {
+                    "src": "/icons/shortcuts/music-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Code Generation",
+            "short_name": "Code Generation",
+            "description": "Generate code using descriptive text.",
+            "url": "/code?source=pwa",
+            "icons": [
+                {
+                    "src": "/icons/shortcuts/code-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-1917x925.png",
+            "sizes": "1917x925",
+            "type": "image/png",
+            "label": "Genius - SaaS AI Platform"
+        }
+    ],
+    "icons": [
+        {
+            "src": "/icons/icon-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
